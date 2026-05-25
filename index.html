@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Versets du Jour | Messages Bibliques Quotidiens</title>
+    <!-- Google Fonts (typographie) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sélecteur de langue -->
+        <div class="lang-selector">
+            <select id="languageSelect" class="lang-select" aria-label="Choisir la langue du verset">
+                <option value="fr" selected>🇫🇷 Français</option>
+                <option value="en">🇬🇧 English</option>
+                <option value="mg">🇲🇬 Malagasy</option>
+            </select>
+        </div>
+
+        <!-- Carte du message biblique -->
+        <div class="verse-card" id="verseCard">
+            <div class="verse-text" id="verseText">
+                Que la paix divine remplisse ton cœur.
+            </div>
+            <div class="verse-ref" id="verseRef">
+                — Parole du jour —
+            </div>
+        </div>
+
+        <!-- Bouton d'action -->
+        <div style="text-align: center;">
+            <button id="newVerseBtn" class="new-verse-btn">
+                <span class="btn-icon">✨</span> Nouveau verset
+            </button>
+        </div>
+        <div class="app-footer">
+            « Une parole renouvelée chaque matin »
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
