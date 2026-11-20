@@ -1,8 +1,8 @@
 // ---------- CONFIGURATION ----------
 const VERSES_API = {
-    fr: 'https://raw.githubusercontent.com/leorak98/seed-verses/main/data/fr/verses.json',
-    en: 'https://raw.githubusercontent.com/leorak98/seed-verses/main/data/en/verses.json',
-    mg: 'https://raw.githubusercontent.com/leorak98/seed-verses/main/data/mg/verses.json'
+    fr: 'https://raw.githubusercontent.com/luca-coder07/seed-verses/main/data/fr/verses.json',
+    en: 'https://raw.githubusercontent.com/luca-coder07/seed-verses/main/data/en/verses.json',
+    mg: 'https://raw.githubusercontent.com/luca-coder07/seed-verses/main/data/mg/verses.json'
 };
 
 // Cache des versets par langue
